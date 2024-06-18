@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin: 0px
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+li {
+    padding: 0px 12px;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.card {
+    background-color: white;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.CT {
+    background-color: #3882F6;
+}
