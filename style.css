@@ -31,6 +31,12 @@ li {
     background-color: #1F2937;
 }
 
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
 .card {
     background-color: white;
 }
