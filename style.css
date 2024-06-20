@@ -24,11 +24,25 @@ ul {
 }
 
 li {
-    padding: 0px 12px;
+    padding: 0px 0px 0px 12px;
 }
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    padding: 0px 60px;
+    justify-content: space-between;
+}
+
+.hero .text {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 h1 {
