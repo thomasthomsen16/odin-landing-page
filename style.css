@@ -90,14 +90,28 @@ h2 {
     color: #1F2937;
 }
 
-
-
 .testimonial {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 200px;
+    margin: 0px;
+}
+
+.testimonial .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.testimonial .author {
+    display: flex;
+   justify-content: right;
 }
 
 .CT {
-    background-color: #3882F6;
+    background-color: #3882F6; 
 }
 
 .button {
