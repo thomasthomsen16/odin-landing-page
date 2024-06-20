@@ -62,7 +62,35 @@ h1 {
 
 .card {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
 }
+
+.card .header {
+    display: flex;
+    justify-content: center;
+}
+
+.card .img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .img>* {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+
 
 .testimonial {
     background-color: #e5e7eb;
